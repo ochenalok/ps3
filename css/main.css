@@ -1,0 +1,290 @@
+/*/////////////////////////////////////////////
+      TESTING TOOL BOX
+////////////////////////////////////////////*/
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f93939;
+
+  b/order:solid 1px red; 
+}
+/*////////////////////////////////////////////*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
+
+/*/////////////////////////////////////////////
+      1. NAVBAR
+////////////////////////////////////////////*/
+.nav {
+  max-width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #382266;
+  o/pacity: 0;
+  p/osition: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z/-index: 5;
+}
+.nav_logo {
+  m/ax-width: 30px;
+  h/eight: auto;
+  p/osition: center;
+  t/op: 0.5em;
+  l/eft: 0.5em;
+}
+
+.nav_menu_icon{
+	float:right;
+	color:#fff;
+	font-size:30px;
+	cursor:pointer;
+	margin:0px 5px 5px 15px;
+}
+
+
+.nav_logo{
+	color:#fff;
+	margin:5px auto;
+	font-size:30px;
+
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    b/ackground-color: #8d94ba;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+    background-color: #60689f;
+    background: linear-gradient(to top, #60689f, #8d94ba);
+    t/ransition: all 0.5s linear;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    c/olor: #818181;
+    color: #cfd2e2;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #fff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*/////////////////////////////////////////////
+      2. HEADER
+////////////////////////////////////////////*/
+.header{
+	position: relative;
+	background-image: url('../img/headerback.jpg');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+
+}
+
+.description h6{
+  font-size: 15px;
+  color: #382266;
+  background-color: 
+}
+
+.description h1{
+	color:#382266 ;
+  font-family: "Raleway";
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width:50%;
+  margin:0 auto;
+	line-height: 1.5;
+  text-align: center;
+}
+.description button{
+	b/order:1px solid #382266;
+	background:#382266;
+	color:#fff;
+  margin:50px 0px auto;
+}
+
+
+/*/////////////////////////////////////////////
+      3. ABOUT
+////////////////////////////////////////////*/
+
+
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#382266;
+	margin: 2em;
+}
+
+
+
+.about img{
+	height: 100%;
+  width: 100%;
+  border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+
+/*/////////////////////////////////////////////
+      4. PORTFOLIO
+////////////////////////////////////////////*/
+.portfolio{
+	margin: 4em 0;
+    position: relative;	
+}
+.portfolio h1{
+	color:#382266;
+	margin: 2em;	
+}
+.portfolio img{
+	 height: 15rem;
+	 width: 100%;
+	 margin: 1em;
+
+}
+
+
+/*/////////////////////////////////////////////
+      5. CONTACT
+////////////////////////////////////////////*/
+
+.contact-form{
+	margin: 6em 0;
+	position: relative;	
+  b/ackground-color: #9068be;	
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color: #382266; 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-lg{
+	background:  #10828C;
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}
+
+
+/*/////////////////////////////////////////////
+      6. FOOTER
+////////////////////////////////////////////*/
+.footer-container{
+  b/order-style: solid;
+  b/order-width: 1px;
+  height: 150px;
+  padding-top: 40px;
+  background-color: #382266;
+  m/argin-bottom: 0;
+  b/order: 0;
+  font-size: 16px !important;
+  l/ine-height: 1.42857143 !important;
+
+  margin:0;
+}
+
+.footer-container p{
+  b/order-color: transparent;
+  color: #fff !important;
+
+}
+
+.footer-container p a{
+  b/order-color: transparent;
+  color: #fff !important;
+
+
+}
+
+
+footer .glyphicon {
+    font-size: 20px;
+    m/argin-bottom: 20px;
+    color: #fff;
+  }
